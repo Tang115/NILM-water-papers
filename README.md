@@ -9,3 +9,4 @@
 2. As the processed data is not included, kindly set skip_dp = True in the main function for the initial use.
 3. In our test program, we utilized a LSTM network to learn the mapping relationship between the aggregated energy and appliance 1 in house 2. We adopted the approach from [1] by training 5 different LSTMs to predict 5 appliances. Therefore, the NILM task has been converted into a prediction problem instead of a classification problem.
 4. The training and testing results have also been uploaded, but they are not satisfactory at the moment.
+[1] Çimen, H., Çetinkaya, N., Vasquez, J.C. and Guerrero, J.M., 2020. A microgrid energy management system based on non-intrusive load monitoring via multitask learning. IEEE Transactions on Smart Grid, 12(2), pp.977-987.
