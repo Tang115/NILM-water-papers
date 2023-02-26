@@ -185,6 +185,7 @@ def main():
     t1 = time.time()
     NILM = NILM_related_tasks()
 
+    # the data process will be skiped if skip_dp = True
     NILM.load_dataset(train_or_test="Train", skip_dp=True)
     NILM.train()
 
